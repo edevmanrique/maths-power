@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/math.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/square-mobile.css">
+    <link rel="stylesheet" href="../css/square-tablet.css" media="screen and (min-width: 750px)">
+    <link rel="stylesheet" href="../css/square-desktop.css" media="screen and (min-width: 1400px)">
+    <title>Maths Power</title>
+</head>
+
+<body>
+    <header class="figures">
+        <h1 class="figures__title">Maths Power</h1>
+        <nav class="figures__options">
+            <ul class="figures__list">
+                <li class="figures__list-s">
+                    <a href="#">
+                        <img src="../img/square.png" alt="">
+                    </a>
+                </li>
+                <li class="figures__list-t">
+                    <a href="#">
+                        <img src="../img/triangle.png" alt="">
+                    </a>
+                </li>
+                <li class="figures__list-c">
+                    <a href="#">
+                        <img src="../img/circle.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="operations">
+        <section class="operations__square">
+            <div class="operations__titles">
+                <h2 class="operations__title">Calculate the area and perimeter of a square (cm)</h2>
+            </div>
+            <form class="operations__square-form">
+                <input type="text" id="square_input" placeholder="Type base of the square">
+                <div class="operations__square-form_button">
+                    <button type="button" onclick="square(1)">Calculate perimeter</button>
+                    <button type="button" onclick="square(2)">Calculate area</button>
+                </div>
+                <h2 class="operations__result">Result:</h2>
+                <input type="text" id="square_output" placeholder="Result" disabled>
+            </form>
+            <h2 class="operations__explication">How to calculate?</h2>
+            <div class="operations__explication_both">
+                <div class="operations__explication_perimeter">
+                    <h3 class="">Perimeter</h3>
+                    <h4 class="">(2 * b) + (2 * h)</h4>
+                </div>
+                <div class="operations__explication_area">
+                    <h3 class="">Area</h3>
+                    <h4 class="">b * h</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="credits">
+        <p>Developed by Edison Manrique</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
