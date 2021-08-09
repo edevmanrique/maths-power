@@ -1,0 +1,32 @@
+.apps__options{
+    flex-direction: row;
+}
+
+.apps_first{
+    margin: 0;
+}
+
+.sales, .analysis, .statistics{
+    margin-top: 0px;
+}
+
+.statistics, .sales, .analysis{
+    margin-top: 0px;
+}
+
+.apps__title{
+    margin-top: 200px;
+}
+
+.apps__options{
+    margin-top: 70px;
+}
+
+.apps__options img{
+    width: 340px;
+    transition: width 1s;
+}
+
+.apps__options a:hover img{
+    width: 420px;
+}

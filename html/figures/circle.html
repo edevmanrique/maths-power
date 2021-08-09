@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/math.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/figures/circle-mobile.css">
+    <link rel="stylesheet" href="../../css/figures/circle-tablet.css" media="screen and (min-width: 750px)">
+    <link rel="stylesheet" href="../../css/figures/circle-desktop.css" media="screen and (min-width: 1400px)">
+    <title>Maths Power - Circle</title>
+</head>
+
+<body>
+    <header class="figures">
+        <a href="../../index.html">
+            <img class="return" src="../../img/return.png" alt="">
+        </a>
+        <h1 class="figures__title">Maths Power</h1>
+        <nav class="figures__options">
+            <ul class="figures__list">
+                <li class="figures__list-s">
+                    <a href="square.html">
+                        <img src="../../img/square.png" alt="">
+                    </a>
+                </li>
+                <li class="figures__list-t">
+                    <a href="triangle.html">
+                        <img src="../../img/triangle.png" alt="">
+                    </a>
+                </li>
+                <li class="figures__list-c">
+                    <a href="#">
+                        <img src="../../img/circle.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="operations">
+        <section class="operations__circle">
+            <div class="operations__titles">
+                <h2 class="operations__title">Calculate the area and circumference of a circle (cm)</h2>
+            </div>
+            <form class="operations__circle-form">
+                <input type="text" id="circle_input" placeholder="Type radio of the circle">
+                <div class="operations__circle-form_button">
+                    <button type="button" onclick="circle(1)">Calculate perimeter</button>
+                    <button type="button" onclick="circle(2)">Calculate area</button>
+                </div>
+                <h2 class="operations__result">Result:</h2>
+                <input type="text" id="circle_output" placeholder="Result" disabled>
+            </form>
+            <h2 class="operations__explication">How to calculate?</h2>
+            <div class="operations__explication_both">
+                <div class="operations__explication_perimeter">
+                    <h3 class="">Perimeter</h3>
+                    <h4 class="">(r * 2) * π</h4>
+                </div>
+                <div class="operations__explication_area">
+                    <h3 class="">Area</h3>
+                    <h4 class="">r ² * π</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="credits">
+        <p>Developed by Edison Manrique</p>
+    </footer>
+    <script src="../../js/figures/script.js"></script>
+</body>
+
+</html>

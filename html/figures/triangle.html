@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Power - Triangle</title>
+    <link rel="shortcut icon" href="../../img/math.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/figures/triangle-mobile.css">
+    <link rel="stylesheet" href="../../css/figures/triangle-tablet.css" media="screen and (min-width: 750px)">
+</head>
+<body>
+    <header class="figures">
+        <a href="../../index.html">
+            <img class="return" src="../../img/return.png" alt="">
+        </a>
+        <h1 class="figures__title">Maths Power</h1>
+        <nav class="figures__options">
+            <ul class="figures__list">
+                <li class="figures__list-s">
+                    <a href="square.html">
+                        <img src="../../img/square.png" alt="">
+                    </a>
+                </li>
+                <li class="figures__list-t">
+                    <a href="triangle.html">
+                        <img src="../../img/triangle.png" alt="">
+                    </a>
+                </li>
+                <li class="figures__list-c">
+                    <a href="circle.html">
+                        <img src="../../img/circle.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="operations">
+        <section class="operations__triangle">
+            <div class="operations__titles">
+                <h2 class="operations__title">Calculate the area and perimeter of a triangle (cm)</h2>
+            </div>
+            <form class="operations__triangle-form">
+                <input type="text" id="triangle_base" placeholder="Type base of the triangle">
+                <input type="text" id="triangle_height" placeholder="Type height (or first side)">
+                <input type="text" id="triangle_ss" placeholder="Type second side">
+                <div class="operations__triangle-form_button">
+                    <button type="button" onclick="triangle(1)">Calculate perimeter</button>
+                    <button type="button" onclick="triangle(2)">Calculate area</button>
+                </div>
+                <h2 class="operations__result">Result:</h2>
+                <input type="text" id="triangle_output" placeholder="Result" disabled>
+            </form>
+            <h2 class="operations__explication">How to calculate?</h2>
+            <div class="operations__explication_both">
+                <div class="operations__explication_perimeter">
+                    <h3 class="">Perimeter</h3>
+                    <h4 class="">b + fs + ss</h4>
+                </div>
+                <div class="operations__explication_area">
+                    <h3 class="">Area</h3>
+                    <h4 class="">(b * h) / 2</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="credits">
+        <p>Developed by Edison Manrique</p>
+    </footer>
+    <script src="../../js/figures/script.js"></script>
+</body>
+</html>

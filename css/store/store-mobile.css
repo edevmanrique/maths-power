@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #0088ff 0%, #00f2fe 100%);
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+.calculate{
+    height: 100%;
+    margin-top: 200px;
+    width: 100%;
+}
+
+.calculate h2{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.calculate__form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.calculate__form input{
+    background-color: rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    border: 1px solid rgb(0, 143, 187);
+    border-radius: 25px;
+    width: 70%;
+    font-weight: bolder;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.input-1{
+    margin-bottom: 40px;
+}
+
+.input-2{
+    margin-top: 40px;
+}
+
+.calculate__form button{
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    width: 140px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+::placeholder{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.Back{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Back img{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 3px;
+    width: 35px;
+}
+
+.credits{
+    margin-top: 20px;
+    padding: 15px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

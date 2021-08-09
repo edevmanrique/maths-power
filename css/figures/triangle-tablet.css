@@ -1,0 +1,8 @@
+.operations__triangle{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 25px;
+    height: 600px;
+    margin-top: 10%;
+}

@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to top, #ff81db 0%, #629cff 100%);
+}
+
+.apps__options{
+    flex-direction: row;
+}
+
+.statistics, .sales{
+    margin-top: 0px;
+}
+
+.statistics, .sales, .analysis{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.apps{
+    height: 100%;
+}
+
+.apps__title{
+    font-size: 30px;
+}
+
+.analysis{
+    margin-top: 0;
+}

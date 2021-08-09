@@ -19,6 +19,20 @@ body{
     color: white;
     box-sizing: border-box;
 }
+.return{
+    position: absolute;
+    left: 20px;
+    width: 40px;
+    top: 21px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+}
+
+.return:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
 .figures{
     width: 100%;
@@ -52,14 +66,14 @@ body{
     height: 100%;
 }
 
-.figures__list-s img{
+.figures__list-t img{
     width: 95%;
     background-color: rgba(0, 0, 0, 0.1);
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
 
-.figures__list-t a:hover img, .figures__list-c a:hover img{
+.figures__list-s a:hover img, .figures__list-c a:hover img{
     width: 90%;
     background-color: rgba(0, 0, 0, 0.1);
     border: 2px solid rgba(0, 0, 0, 0.2);
@@ -90,13 +104,13 @@ body{
     text-align: center;
 }
 
-.operations__square-form{
+.operations__triangle-form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.operations__square-form input{
+.operations__triangle-form input{
     width: 60%;
     margin: 10px 0px;
     outline: none;
@@ -109,25 +123,32 @@ body{
     font-size: 16px;
 }
 
-.operations__square-form input::placeholder{
+.operations__triangle-form input::placeholder{
     color: rgba(255, 255, 255, 0.4);
     font-weight: bolder;
 }
 
-.operations__square-form_button{
+.operations__triangle-form_button{
     margin-top: 20px;
     width: 92%;
     display: flex;
     justify-content: space-around;
 }
 
-.operations__square-form_button button{
+.operations__triangle-form_button button{
     width: 150px;
     padding: 5px 0px;
     background-color: rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(0, 0, 0, 0.3);
     font-weight: bolder;
     border-radius: 6px;
+    transition: color 0.6s;
+}
+
+.operations__triangle-form_button button:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    color: rgb(27, 255, 225);
 }
 
 .operations__result{
