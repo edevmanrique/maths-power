@@ -1,0 +1,29 @@
+.calculation__form{
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 25px;
+    padding: 40px;
+    width: 500px;
+}
+
+.calculation__form button{
+    width: 200px;
+}
+
+.calculation__title{
+    margin-top: 15vh;
+}
+
+.calculation__form button:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.gif{
+    width: 50px;
+    top: 8px;
+    transition: 0.5s width;
+}
+
+.gif:hover{
+    width: 55px;
+}

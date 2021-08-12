@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/salaries/salary-mobile.css">
+    <link rel="stylesheet" href="../../css/salaries/salary-tablet.css" media="screen and (min-width: 900px)">
+</head>
+<body>
+    <header class="title">
+        <a href="../../index.html" class="return">
+            <img src="../../img/return-salary.png" alt="">
+        </a>
+        <h1>Math Power</h1>
+    </header>
+
+    <main class="salary-calculation">
+        <h2 class="salary-calculation__title">Calculate median and top 10% of salaries in your country</h2>
+        <form class="salary-calculation__form">
+            <input class="input-1" type="number" placeholder="salary" id="salary">
+            <div class="salary-calculation__buttons">
+                <button class="btnSalary" type="button" onclick="add_salaries()">Register salary</button>
+                <button class="btnCalculate" type="button" onclick="general_median()">Calculate</button>
+            </div>
+            <div class="salaries">
+                <p id="acc-salaries"></p>
+            </div>
+            <input class="input-2" type="text" id="median" placeholder="median" readonly>
+            <input class="input-2 top" type="text" id="top" placeholder="top" readonly>
+        </form>
+    </main>
+
+    <footer class="credits">
+        Developed by Edison Manrique
+    </footer>
+
+    <script src="../../js/salaries/salary.js"></script>
+    <script src="../../js/salaries/analysis.js"></script>
+</body>
+</html>

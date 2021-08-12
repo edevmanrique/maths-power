@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average</title>
+    <link rel="stylesheet" href="../../css/calculations/average-mobile.css">
+    <link rel="stylesheet" href="../../css/calculations/average-tablet.css" media="screen and (min-width: 860px)">
+</head>
+
+<body>
+    <header class="title">
+        <a href="../../index.html"><img class="gif" src="../../img/return.gif" alt=""></a>
+        <h1 class="title__name">Math Power</h1>
+        <nav class="title__options">
+            <ul class="title__list">
+                <li class="title__option-average"><a href="#"><img src="../../img/average.png" alt=""></a></li>
+                <li class="title__option-mode"><a href="../calculations/mode.html"><img src="../../img/mode.png"
+                            alt=""></a></li>
+                <li class="title__option-median"><a href="../calculations/median.html"><img src="../../img/median.png"
+                            alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="calculation">
+        <h1 class="calculation__title">Average calculation</h1>
+        <form class="calculation__form">
+            <input type="number" id="value-1" placeholder="Insert value #1">
+            <input type="number" id="value-2" class="input" placeholder="Insert value #2">
+            <input type="number" id="value-3" class="input" placeholder="Insert value #3 (optional)">
+            <input type="number" id="value-4" class="input" placeholder="Insert value #4 (optional)">
+            <input type="number" id="value-5" class="input" placeholder="Insert value #5 (optional)">
+            <button type="button" onclick="average()">Average!</button>
+            <input type="number" id="result" class="result" readonly>
+        </form>
+    </main>
+    <footer class="credits">
+        <p>Developed by Edison Manrique</p>
+    </footer>
+    <script src="../../js/calculations/average.js"></script>
+</body>
+
+</html>

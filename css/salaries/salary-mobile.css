@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to top, #eb51b2 0%, #7811ff 100%);
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+
+.return{
+    position: absolute;
+    top: 63px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: initial;
+}
+
+.return img{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.salary-calculation{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.salary-calculation__title{
+    width: 90%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.salary-calculation__form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.salaries{
+    display: flex;
+    width: 67%;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.salary-calculation__form .input-1{
+    width: 67%;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 7px 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.salary-calculation__form .input-2{
+    width: 67%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 7px 0px;
+    padding-left: 10px;
+}
+
+.salary-calculation__form .top{
+    margin-top: 40px;
+}
+
+.salary-calculation__buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.salary-calculation__buttons button{
+    background-color: rgba(0, 0, 0, 0.3);
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 25px;
+    width: 120px;
+}
+
+.btnSalary{
+    margin-right: 10px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.credits{
+    padding: 15px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}

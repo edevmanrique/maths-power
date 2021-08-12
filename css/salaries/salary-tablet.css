@@ -1,0 +1,27 @@
+.salary-calculation{
+    width: 855px;
+}
+
+.salary-calculation__form{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    padding: 80px 0px;
+    border-radius: 20px;
+    margin-top: 10vh;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.return img{
+    transition: width 300ms;
+    width: 50px;
+}
+
+.return img:hover{
+    width: 55px;
+    cursor: pointer;
+}

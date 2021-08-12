@@ -15,24 +15,24 @@
 <body>
     <header class="figures">
         <a href="../../index.html">
-            <img class="return" src="../../img/return.png" alt="">
+            <img class="return" src="../../img/return.png" alt="return button">
         </a>
         <h1 class="figures__title">Maths Power</h1>
         <nav class="figures__options">
             <ul class="figures__list">
                 <li class="figures__list-s">
                     <a href="square.html">
-                        <img src="../../img/square.png" alt="">
+                        <img src="../../img/square.png" alt="square button">
                     </a>
                 </li>
                 <li class="figures__list-t">
                     <a href="triangle.html">
-                        <img src="../../img/triangle.png" alt="">
+                        <img src="../../img/triangle.png" alt="triangle button">
                     </a>
                 </li>
                 <li class="figures__list-c">
                     <a href="#">
-                        <img src="../../img/circle.png" alt="">
+                        <img src="../../img/circle.png" alt="circle button">
                     </a>
                 </li>
             </ul>
@@ -45,13 +45,13 @@
                 <h2 class="operations__title">Calculate the area and circumference of a circle (cm)</h2>
             </div>
             <form class="operations__circle-form">
-                <input type="text" id="circle_input" placeholder="Type radio of the circle">
+                <input type="number" id="circle_input" placeholder="Type radio of the circle">
                 <div class="operations__circle-form_button">
                     <button type="button" onclick="circle(1)">Calculate perimeter</button>
                     <button type="button" onclick="circle(2)">Calculate area</button>
                 </div>
                 <h2 class="operations__result">Result:</h2>
-                <input type="text" id="circle_output" placeholder="Result" disabled>
+                <input type="text" id="circle_output" placeholder="Result" readonly>
             </form>
             <h2 class="operations__explication">How to calculate?</h2>
             <div class="operations__explication_both">
