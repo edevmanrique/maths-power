@@ -30,6 +30,8 @@ Maths Power is done. However, maybe some minimum details could be changed in the
 
 - CSS
 
+- JS
+
 No frameworks or libraries.
 
 ### How can I see this project working?
